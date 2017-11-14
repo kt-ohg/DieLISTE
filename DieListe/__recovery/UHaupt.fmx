@@ -1,0 +1,130 @@
+object FrmLogin: TFrmLogin
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object RctCap: TRectangle
+    Fill.Color = claCornflowerblue
+    Size.Width = 641.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object LblCap: TLabel
+    Size.Width = 641.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Login'
+    TabOrder = 1
+  end
+  object LblAnm: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 88.000000000000000000
+    Text = 'Anmelden'
+    TabOrder = 2
+  end
+  object EdtAnmBenutzer: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Text = 'Benutzername'
+    TextSettings.FontColor = claDarkgray
+    Position.X = 48.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+  end
+  object EdtAnmPassword: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Text = 'Passwort'
+    TextSettings.FontColor = claDarkgray
+    Position.X = 48.000000000000000000
+    Position.Y = 176.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+    ParentShowHint = False
+    ShowHint = False
+  end
+  object BtnLos: TButton
+    Position.X = 320.000000000000000000
+    Position.Y = 168.000000000000000000
+    TabOrder = 5
+    Text = 'Los!'
+    TintColor = claCornflowerblue
+  end
+  object LblReg: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Registrieren'
+    TabOrder = 6
+  end
+  object EdtEMail: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    Text = 'E-Mail-Adresse'
+    TextSettings.FontColor = claDarkgray
+    Position.X = 48.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+  end
+  object EdtRegBenutzer: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Text = 'Benutzername'
+    TextSettings.FontColor = claDarkgray
+    Position.X = 48.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+  end
+  object EdtRegPassword: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 9
+    Text = 'Passwort'
+    TextSettings.FontColor = claDarkgray
+    Position.X = 48.000000000000000000
+    Position.Y = 368.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+  end
+  object BtnReg: TButton
+    Position.X = 336.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = 'Registrieren'
+    TintColor = claCornflowerblue
+  end
+  object BtnNewPwd: TButton
+    Position.X = 72.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 193.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = 'Passwort vergessen?'
+    TintColor = claCornflowerblue
+  end
+end

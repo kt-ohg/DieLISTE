@@ -1,0 +1,48 @@
+unit UHaupt;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls;
+
+type
+  TFrmLogin = class(TForm)
+    LblCap: TLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure setSize();
+  private
+    { Private-Deklarationen }
+  public
+    { Public-Deklarationen }
+  end;
+
+var
+  FrmLogin: TFrmLogin;
+
+implementation
+
+{$R *.fmx}
+
+
+
+
+procedure TFrmLogin.FormCreate(Sender: TObject);
+begin
+  setSize();
+end;
+
+procedure setSize();
+var x,y:Integer;
+begin
+  x:=Screen.Width;
+  y:=Screen.Height;
+  FrmLogin.Height:=y;
+  FrmLogin.Width:=x;
+  LblCap.Width:=x;
+  LblCap.Height:=y/6;
+  //LblCap.Color:=
+end;
+
+end.
