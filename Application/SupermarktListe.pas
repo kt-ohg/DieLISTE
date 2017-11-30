@@ -17,6 +17,7 @@ type
     Label1: TLabel;
     EditBtn2: TButton;
     ListBox1: TListBox;
+    Panel1: TPanel;
     procedure ProfilBtn2Click(Sender: TObject);
     procedure HomeBtn2Click(Sender: TObject);
   private

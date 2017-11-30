@@ -16,6 +16,7 @@ type
     SupermaerkteBtn2: TButton;
     Label1: TLabel;
     ListBox1: TListBox;
+    Panel1: TPanel;
     procedure ProfilBtn2Click(Sender: TObject);
     procedure HomeBtn2Click(Sender: TObject);
     procedure SupermaerkteBtn2Click(Sender: TObject);

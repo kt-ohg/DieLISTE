@@ -73,23 +73,40 @@ object Form2: TForm2
         ColumnSpan = 6
         Control = ListBox1
         Row = 3
+      end
+      item
+        Column = 0
+        ColumnSpan = 6
+        Control = Panel1
+        Row = 0
+        RowSpan = 3
       end>
     RowCollection = <
       item
-        Value = 5.009777756937668000
+        Value = 5.009777756937670000
       end
       item
-        Value = 5.009777756937643000
+        Value = 5.009777756937645000
       end
       item
-        Value = 5.009777756937636000
+        Value = 5.009777756937638000
       end
       item
         Value = 69.962060685135050000
       end
       item
         Value = 15.008606044051990000
+      end
+      item
+        SizeStyle = Auto
       end>
+    object Panel1: TPanel
+      Align = Client
+      Size.Width = 350.000000000000000000
+      Size.Height = 82.661331176757810000
+      Size.PlatformDefault = False
+      TabOrder = 7
+    end
     object PlusBtn2: TButton
       Align = Client
       Size.Width = 63.717956542968760000

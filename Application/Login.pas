@@ -5,12 +5,11 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Edit, FMX.Controls.Presentation, FMX.Layouts;
+  FMX.Edit, FMX.Controls.Presentation, FMX.Layouts,PWvergessen;
 
 type
   TForm5 = class(TForm)
     GridPanelLayout1: TGridPanelLayout;
-    Panel1: TPanel;
     LblLogin: TLabel;
     LblAnmelden: TLabel;
     LblRegistrieren: TLabel;
@@ -22,6 +21,9 @@ type
     BtnLos: TButton;
     BtnPWVergessen: TButton;
     BtnRegistrieren: TButton;
+    Panel1: TPanel;
+    procedure BtnPWVergessenClick(Sender: TObject);
+
   private
     { Private-Deklarationen }
   public
@@ -34,5 +36,12 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure TForm5.BtnPWVergessenClick(Sender: TObject);
+begin
+  Login.Form5.Visible:=false;
+  PWvergessen.Form6.Visible:=true;
+end;
+
 
 end.

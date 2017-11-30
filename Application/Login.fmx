@@ -16,28 +16,21 @@ object Form5: TForm5
     TabOrder = 0
     ColumnCollection = <
       item
-        Value = 20.101467160930260000
+        Value = 9.737743869674445000
       end
       item
-        Value = 20.003898189529190000
+        Value = 26.690199638502260000
       end
       item
-        Value = 19.949728320858700000
+        Value = 27.004589997481320000
       end
       item
-        Value = 19.890950484464180000
+        Value = 26.570722511795880000
       end
       item
-        Value = 20.053955844217680000
+        Value = 9.996743982546106000
       end>
     ControlCollection = <
-      item
-        Column = 0
-        ColumnSpan = 5
-        Control = Panel1
-        Row = 0
-        RowSpan = 3
-      end
       item
         Column = 2
         Control = LblLogin
@@ -97,6 +90,13 @@ object Form5: TForm5
         Column = 3
         Control = BtnRegistrieren
         Row = 14
+      end
+      item
+        Column = 0
+        ColumnSpan = 5
+        Control = Panel1
+        Row = 0
+        RowSpan = 3
       end>
     RowCollection = <
       item
@@ -106,7 +106,7 @@ object Form5: TForm5
         Value = 6.250026621973830000
       end
       item
-        Value = 6.250022928276812000
+        Value = 6.250022928276813000
       end
       item
         Value = 6.250014280568596000
@@ -115,34 +115,34 @@ object Form5: TForm5
         Value = 6.250003981292979000
       end
       item
-        Value = 6.249994663052298000
+        Value = 6.249994663052297000
       end
       item
         Value = 6.249987820751635000
       end
       item
-        Value = 6.249984039688307000
+        Value = 6.249984039688308000
       end
       item
-        Value = 6.249983222641548000
+        Value = 6.249983222641549000
       end
       item
-        Value = 6.249984808940584000
+        Value = 6.249984808940585000
       end
       item
-        Value = 6.249987978109409000
+        Value = 6.249987978109412000
       end
       item
-        Value = 6.249991830562031000
+        Value = 6.249991830562033000
       end
       item
-        Value = 6.249995538041570000
+        Value = 6.249995538041571000
       end
       item
-        Value = 6.249998457166754000
+        Value = 6.249998457166755000
       end
       item
-        Value = 6.250000200698376000
+        Value = 6.250000200698377000
       end
       item
         Value = 6.250000663117746000
@@ -152,94 +152,96 @@ object Form5: TForm5
       Size.Width = 350.000000000000000000
       Size.Height = 103.125396728515600000
       Size.PlatformDefault = False
-      TabOrder = 0
+      TabOrder = 11
     end
     object LblLogin: TLabel
       Align = Client
-      Size.Width = 69.824050903320310000
+      Size.Width = 94.516067504882820000
       Size.Height = 34.375148773193360000
       Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
       Text = 'Login'
-      TabOrder = 1
+      TabOrder = 0
     end
     object LblAnmelden: TLabel
       Align = Client
-      Size.Width = 70.013641357421880000
+      Size.Width = 93.415695190429680000
       Size.Height = 34.375076293945310000
       Size.PlatformDefault = False
       Text = 'Anmelden'
-      TabOrder = 2
+      TabOrder = 1
     end
     object LblRegistrieren: TLabel
       Align = Client
-      Size.Width = 70.013641357421880000
+      Size.Width = 93.415695190429680000
       Size.Height = 34.374908447265630000
       Size.PlatformDefault = False
       Text = 'Registrieren'
-      TabOrder = 3
+      TabOrder = 2
     end
     object EdtBenutzername1: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       Align = Client
-      TabOrder = 8
-      Size.Width = 209.456024169921900000
+      TabOrder = 7
+      Size.Width = 280.929321289062500000
       Size.Height = 34.375015258789060000
       Size.PlatformDefault = False
     end
     object EdtPW1: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       Align = Client
-      TabOrder = 7
-      Size.Width = 209.456024169921900000
+      TabOrder = 6
+      Size.Width = 280.929321289062500000
       Size.Height = 34.374969482421880000
       Size.PlatformDefault = False
     end
     object EdtEMail: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       Align = Client
-      TabOrder = 6
-      Size.Width = 209.456024169921900000
+      TabOrder = 5
+      Size.Width = 280.929321289062500000
       Size.Height = 34.374938964843750000
       Size.PlatformDefault = False
     end
     object EdtBenutzername2: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       Align = Client
-      TabOrder = 5
-      Size.Width = 209.456024169921900000
+      TabOrder = 4
+      Size.Width = 280.929321289062500000
       Size.Height = 34.374938964843750000
       Size.PlatformDefault = False
     end
     object EdtPW2: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       Align = Client
-      TabOrder = 4
-      Size.Width = 209.456024169921900000
+      TabOrder = 3
+      Size.Width = 280.929321289062500000
       Size.Height = 34.374969482421880000
       Size.PlatformDefault = False
     end
     object BtnLos: TButton
       Align = Client
-      Size.Width = 69.618331909179690000
+      Size.Width = 92.997543334960930000
       Size.Height = 34.374908447265630000
       Size.PlatformDefault = False
-      TabOrder = 9
+      TabOrder = 8
       Text = 'Los'
     end
     object BtnPWVergessen: TButton
       Align = Client
-      Size.Width = 70.013641357421880000
-      Size.Height = 34.375030517578130000
+      Size.Width = 93.415695190429680000
+      Size.Height = 34.375030517578120000
       Size.PlatformDefault = False
-      TabOrder = 10
+      TabOrder = 9
       Text = 'Passwort vergessen'
+      OnClick = BtnPWVergessenClick
     end
     object BtnRegistrieren: TButton
       Align = Client
-      Size.Width = 69.618331909179690000
-      Size.Height = 34.375030517578130000
+      Size.Width = 92.997543334960930000
+      Size.Height = 34.375030517578120000
       Size.PlatformDefault = False
-      TabOrder = 11
+      TabOrder = 10
       Text = 'Registrieren'
     end
   end
